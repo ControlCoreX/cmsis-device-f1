@@ -2,9 +2,9 @@
 # Author: tuwenbo
 
 target_include_directories(${EXECUTABLE_NAME} PRIVATE
-  "${CMAKE_CURRENT_LIST_DIR}/cmsis-device-f1/Include"
+  "${CMAKE_CURRENT_LIST_DIR}/Include"
 )
 
 target_sources(${EXECUTABLE_NAME} PRIVATE
-  "${CMAKE_CURRENT_LIST_DIR}/cmsis-device-f1/Source/Templates/system_stm32f1xx.c"
+  "${CMAKE_CURRENT_LIST_DIR}/Source/Templates/system_stm32f1xx.c"
 )
